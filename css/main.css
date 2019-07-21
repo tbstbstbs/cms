@@ -83,7 +83,7 @@ article {
 }
 
 .article-details {	
-	border-bottom: solid 2px #dfe6e9;
+	border-bottom: solid 0px #dfe6e9;
 	font-size: 0.9em;
 	padding-bottom: 0.5em;
 }
