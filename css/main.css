@@ -20,6 +20,10 @@ img {
 	max-width: 100%;
 }
 
+img.article-image {
+	max-height: 150px;
+}
+
 button {
 	border-radius: 5px;
 	border: solid 1px #b2bec3;
