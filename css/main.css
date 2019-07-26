@@ -120,11 +120,11 @@ footer p {
 	}
 
 	header, main, footer {
-		padding: 4em 25%;
+		padding: 0em 0%;
 	}
 	.article-image {
 	max-height: 60%;
-	width: 100%;
+	width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto; 
