@@ -21,7 +21,7 @@ img {
 }
 
 img.article-image {
-	max-height: 400px;
+	max-height: 320px;
 	width: 100%;
     display: block;
     margin-left: auto;
