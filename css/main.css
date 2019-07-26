@@ -107,24 +107,3 @@ footer {
 footer p {
 	margin-top: 0;
 }
-
-@media only screen and (min-width : 992px) {
-	.article-details {
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-	}
-
-	.article-details div:first-child {
-		margin-bottom: 0;
-	}
-
-	header, main, footer {
-		padding: 0em 0%;
-}
-
-@media only screen and (min-width : 1200px) {
-	header, main, footer {
-		padding: 4em 30%;
-	}
-}
