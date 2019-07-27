@@ -131,6 +131,6 @@ footer p {
 
 @media print {
 h2, h3, h4 { background-color:#FFFF00; }
-}    
-   Your notes
+body {margin-top: 0mm; margin-bottom: 0mm; 
+           margin-left: 0mm; margin-right: 0mm}
 }
