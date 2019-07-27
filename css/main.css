@@ -131,5 +131,8 @@ footer p {
 
 @media print {
 	h1, h2, h3, h4 { background-color:#FFFF00; }
-	body {margin-top: 0mm; margin-bottom: 0mm; margin-left: 0mm; margin-right: 0mm}
+	@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
 }
