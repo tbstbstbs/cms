@@ -128,3 +128,9 @@ footer p {
 		padding: 4em 30%;
 	}
 }
+
+@media print {
+h2, h3, h4 { background-color:#FFFF00; }
+}    
+   Your notes
+}
