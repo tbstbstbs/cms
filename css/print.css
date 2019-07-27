@@ -1,0 +1,6 @@
+
+	h1, h2, h3, h4 { background-color:#FFFF00; }
+	@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
