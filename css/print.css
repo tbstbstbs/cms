@@ -1,5 +1,11 @@
-  body {
+body {
     margin: 0;
+    color: #000;
+    background-color: #fffb00;
+  }
+
+h1 {
+    size: 500px;
     color: #000;
     background-color: #fffb00;
   }
