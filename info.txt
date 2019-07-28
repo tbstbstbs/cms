@@ -1,0 +1,3 @@
+<!--div class="information">
+			inf.university = Infinite Knowledge
+		</div-->
