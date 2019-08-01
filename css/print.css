@@ -22,6 +22,10 @@ h2 {
   width: 100%;
 }
 
+div.article-details {
+  width: 100%;
+}
+
 img.article-image {
   max-height: 280px;
   width: 600px;
@@ -30,4 +34,8 @@ img.article-image {
   margin-bottom: 1cm;
   margin-left: auto;
   margin-right: auto; 
+}
+
+p.article-link {
+  width: 100%;
 }
