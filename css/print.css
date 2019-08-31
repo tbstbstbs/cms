@@ -41,6 +41,6 @@ img.article-image {
   margin-right: auto; 
 }
 
-p.article-link {
-  width: 100%;
+p {
+  width: 600px%;
 }
