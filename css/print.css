@@ -12,6 +12,11 @@
     height: 65%;
   }
 
+
+article {
+   width: 600px;
+}
+
 hr {
   	display: none;
 }
