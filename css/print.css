@@ -14,7 +14,7 @@
 
 
 article {
-   width: 600px;
+   width: 100%;
 }
 
 hr {
@@ -32,7 +32,7 @@ div.article-details {
 }
 
 img.article-image {
-  max-height: 280px;
+  max-height: 320px;
   width: 600px;
   display: block;
   margin-top: 1cm;
