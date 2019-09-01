@@ -32,8 +32,8 @@ div.article-details {
 }
 
 img.article-image {
-  max-height: 320px;
-  width: 600px;
+  max-height: 280px;
+  max-width: 600px;
   display: block;
   margin-top: 1cm;
   margin-bottom: 1cm;
