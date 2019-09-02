@@ -24,15 +24,26 @@ hr {
 h2 {
   margin-top: 1cm;
   font-size: 150%;
-  width: 100%;
+  width: 900px;
+  line-height: normal;
 }
 
 div.article-details {
+   margin-top: 1cm;
    width: 600px;
 }
 
+div.watermark {
+    display: flex;
+    position: fixed;
+    top:10px;
+    right:10px;
+    width: 200px;
+  }
+
+
 img.article-image {
-  max-height: 280px;
+  max-height: 350px;
   max-width: 600px;
   display: block;
   margin-top: 1cm;

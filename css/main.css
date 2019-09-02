@@ -28,6 +28,10 @@ img.article-image {
     margin-right: auto; 
 }
 
+div.watermark {
+    display: none;
+  }
+
 button {
 	border-radius: 5px;
 	border: solid 1px #b2bec3;
