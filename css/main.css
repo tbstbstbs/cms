@@ -103,6 +103,10 @@ article {
 	text-align: center;
 }
 
+img.article-image {
+  display: none;
+}
+
 footer {
 	background: #dfe6e9;
 	text-align: center;
