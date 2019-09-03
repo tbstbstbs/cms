@@ -32,8 +32,10 @@ p.article-text {
    font-size: 14pt;
    font-style: italic;
    font-weight: bold;
-   display: flex;
-   width: 20cm;
+   position: inline;
+   width: 24cm;
+   top: 1cm;
+   right: 1cm;
    margin-top: -0.5cm;
    text-align: justify;
    text-justify: inter-word;
@@ -60,8 +62,9 @@ div.watermark {
 
 img.article-image {
   display: flex;
-  max-width: 21.5cm;
-  max-height: 7.2cm;
+  max-width: 450px;
+  max-height: 360px;
+  overflow: hidden;
   margin-top: 1cm;
   margin-left: 0.0cm;
   margin-bottom: 1cm;
