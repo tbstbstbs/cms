@@ -30,6 +30,7 @@ h2 {
 
 p.article-text {
    font-size: 14pt;
+   font-style: italic;
    font-weight: bold;
    display: flex;
    width: 20cm;
@@ -57,18 +58,27 @@ div.watermark {
     width: 200px;
   }
 
-
 img.article-image {
   display: flex;
-  max-width: 25cm;
+  max-width: 21.5cm;
   max-height: 7.2cm;
   margin-top: 1cm;
   margin-left: 0.0cm;
   margin-bottom: 1cm;
   margin-right: 30px; 
-  background-color: #ffffff;
 }
 
 p {
   width: 25cm;
 }
+
+footer.inf-footer {
+  display: none;
+}
+
+
+table.Top-Picks tr td { font-size: 14pt; }
+
+table.Top-Picks {
+ margin-top: 3cm; 
+}    
