@@ -17,6 +17,17 @@ a:hover {
 	border-color: #1a1a1a;
 }
 
+
+p.banner-image {
+	display: block;
+}
+
+
+table.article-mosaic {
+	display: block;
+}
+
+
 img {
 	max-width: 100%;
 }
@@ -111,6 +122,10 @@ img.article-image {
 table.Top-Picks tr td { 
 	font-size: small; 
     display: inline-block;
+}
+
+img.mosaic-image {
+  display: none;
 }
 
 footer {
