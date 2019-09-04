@@ -101,6 +101,7 @@ table.Top-Picks {
 table.mosaic-banner tr td { font-size: 14pt; }
 
 table.mosaic-banner {
+ display: block;
  position: relative;
  margin-left: -2cm;
  margin-right: -2cm;
