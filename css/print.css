@@ -63,7 +63,7 @@ div.watermark {
 img.article-image {
   display: flex;
   max-width: 450px;
-  max-height: 300px;
+  max-height: 360px;
   overflow: hidden;
   margin-top: 1cm;
   margin-left: 0.0cm;
@@ -81,7 +81,6 @@ img.mosaic-image
   margin-left: 0cm;
   margin-bottom: 0cm;
   margin-right: 0cm; 
-  display: none;
 }
 
 p {
@@ -101,7 +100,10 @@ table.Top-Picks {
 table.mosaic-banner tr td { font-size: 14pt; }
 
 table.mosaic-banner {
+<<<<<<< HEAD
  display: block;
+=======
+>>>>>>> parent of 2548944... Update print.css
  position: relative;
  margin-left: -2cm;
  margin-right: -2cm;
