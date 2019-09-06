@@ -40,6 +40,11 @@ img.article-image {
     margin-right: auto; 
 }
 
+img.toppost-image
+{
+  display: none;
+}
+
 div.watermark {
     display: none;
   }
