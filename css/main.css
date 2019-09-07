@@ -121,6 +121,10 @@ article {
 	margin-bottom: 0em;
 }
 
+.article-entry {	
+	page-break-before: always;
+}
+
 .article-details {	
 	border-bottom: solid 0px #dfe6e9;
 	font-size: 0.9em;

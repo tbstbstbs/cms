@@ -22,10 +22,13 @@ hr {
 }
 
 h2 {
-  margin-top: 1cm;
+  margin-top: 2cm;
   font-size: 28pt;
   width: 21cm;
   line-height: normal;
+}
+
+h2.mosaic-headline {
 }
 
 p.article-text {
@@ -60,6 +63,11 @@ p.toppost {
    text-justify: inter-word;
 }
 
+p.hide-para {
+   display: none;
+}
+
+
 div.article-details {
    margin-top: 1cm;
    width: 25cm;
@@ -88,7 +96,7 @@ img.mosaic-image
 {
   display: block;
   width: 280px;
-  height: 140px;
+  height: 100px;
   overflow: hidden;
   margin-top: 0cm;
   margin-left: 0cm;
