@@ -146,6 +146,10 @@ table.toppost tr td {
     display: inline-block;
 }
 
+table.toppost td { 
+	width: 30%; 
+}
+
 img.mosaic-image {
   display: none;
 }
