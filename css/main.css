@@ -35,7 +35,6 @@ p.toppost {
 }
 
 p.article-credits {
-   text-overflow: ellipsis;
    display: none;
 }
 

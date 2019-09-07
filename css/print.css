@@ -117,13 +117,17 @@ footer.inf-footer {
   display: none;
 }
 
-table.Top-Picks tr td { font-size: 14pt; }
-
-table.Top-Picks {
- margin-top: 3cm; 
+table.Top-Picks tr td { 
+  font-size: 14pt; 
 }
 
-table.mosaic-banner tr td { font-size: 14pt; }
+table.Top-Picks { 
+  margin-top: 3cm; 
+}
+
+table.mosaic-banner tr td { 
+  font-size: 14pt; 
+}
 
 table.mosaic-banner {
  display: block;
