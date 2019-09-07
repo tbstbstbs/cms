@@ -113,17 +113,15 @@ table.Top-Picks {
 table.mosaic-banner tr td { font-size: 14pt; }
 
 table.mosaic-banner {
-<<<<<<< HEAD
  display: block;
-=======
->>>>>>> parent of 2548944... Update print.css
  position: relative;
  margin-left: -2cm;
- margin-right: -2cm;
+ margin-right: 0cm;
  width: 120%;
- margin-top: 4cm;
- page-break-before: always;
- page-break-after: always; 
+ height: 6cm;
+ margin-top: 0cm;
+ page-break-before: none;
+ page-break-after: none; 
 }
 
 ""
