@@ -32,7 +32,12 @@ p.toppost {
    right: 1cm;
    margin-top: -0.5cm;
    text-align: justify;
-}   
+}
+
+p.article-credits {
+   text-overflow: ellipsis;
+}
+
 
 table.article-mosaic {
 	display: block;
