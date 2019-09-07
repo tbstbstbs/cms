@@ -22,6 +22,17 @@ p.banner-image {
 	display: block;
 }
 
+p.toppost {
+   font-size: small;
+   font-style: italic;
+   font-weight: bold;
+   position: inline;
+   max-width: 100%;
+   top: 1cm;
+   right: 1cm;
+   margin-top: -0.5cm;
+   text-align: justify;
+}   
 
 table.article-mosaic {
 	display: block;

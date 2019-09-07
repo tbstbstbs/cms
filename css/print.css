@@ -47,6 +47,19 @@ p.article-credits {
    width: 25cm;
 }
 
+p.toppost {
+   font-size: 14pt;
+   font-style: italic;
+   font-weight: bold;
+   position: inline;
+   width: 24cm;
+   top: 1cm;
+   right: 1cm;
+   margin-top: -0.5cm;
+   text-align: justify;
+   text-justify: inter-word;
+}
+
 div.article-details {
    margin-top: 1cm;
    width: 25cm;
@@ -124,4 +137,16 @@ table.mosaic-banner {
  page-break-after: none; 
 }
 
-""
+table.toppost tr td { font-size: 14pt; }
+
+table.toppost {
+ display: block;
+ position: relative;
+ margin-left: -2cm;
+ margin-right: 0cm;
+ width: 120%;
+ height: 6cm;
+ margin-top: 0cm;
+ page-break-before: none;
+ page-break-after: none; 
+}
