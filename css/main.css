@@ -140,6 +140,12 @@ table.Top-Picks tr td {
     display: inline-block;
 }
 
+table.toppost tr td { 
+	font-size: small; 
+	background: #ffff00;
+    display: inline-block;
+}
+
 img.mosaic-image {
   display: none;
 }
