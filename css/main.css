@@ -125,6 +125,10 @@ article {
 	page-break-before: always;
 }
 
+p.no-display {
+  display: none;
+}
+
 .article-details {	
 	border-bottom: solid 0px #dfe6e9;
 	font-size: 0.9em;
