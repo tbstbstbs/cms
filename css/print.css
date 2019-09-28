@@ -85,7 +85,7 @@ div.watermark {
 img.article-image {
   display: flex;
   max-width: 450px;
-  max-height: 360px;
+  max-height: 310px;
   overflow: hidden;
   margin-top: 1cm;
   margin-left: 0.0cm;
