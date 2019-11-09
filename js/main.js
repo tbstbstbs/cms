@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbyJRxBWqz43ogRDC5sBDfze85y_r4QccXQ6ekapQqfoF5NAueB5/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['NLP'];
+	const CATEGORIES = ['NLP','UX'];
 
 	const state = {activePage: 1, activeCategory: null};
 	const page = {};
@@ -39,7 +39,7 @@ const app = function () {
 	}
 
 	function _buildFilter () {
-	    page.filter.appendChild(_buildFilterLink('no filter', true));
+	    page.filter.appendChild(_buildFilterLink('All Entries', true));
 
 	    CATEGORIES.forEach(function (category) {
 	    	page.filter.appendChild(_buildFilterLink(category, false));
@@ -51,7 +51,7 @@ const app = function () {
 	  	link.innerHTML = _capitalize(label);
 	  	link.classList = isSelected ? 'selected' : '';
 	  	link.onclick = function (event) {
-	  		let category = label === 'no filter' ? null : label.toLowerCase();
+	  		let category = label === 'All Entries' ? null : label.toLowerCase();
 
 			_resetActivePage();
 	  		_setActiveCategory(category);
@@ -131,7 +131,7 @@ const app = function () {
 	function _setActiveCategory (category) {
 		state.activeCategory = category;
 		
-		const label = category === null ? 'no filter' : category;
+		const label = category === null ? 'All Entries' : category;
 		Array.from(page.filter.children).forEach(function (element) {
   			element.classList = label === element.innerHTML.toLowerCase() ? 'selected' : '';
   		});
