@@ -1,7 +1,7 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbyJRxBWqz43ogRDC5sBDfze85y_r4QccXQ6ekapQqfoF5NAueB5/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['NLP'];
+	const CATEGORIES = ['ai','nlp','newwork','logistics','health','creativity', 'smartcity', 'blockchain', 'ux', 'economy'];
 
 	const state = {activePage: 1, activeCategory: null};
 	const page = {};
