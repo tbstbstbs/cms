@@ -1,5 +1,5 @@
 html, body {
-	background: #f8f8f8;
+	background: #ffffff;
 	color: #2d3436;
 	font-family: "Open Sans, Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: normal;
@@ -145,7 +145,7 @@ p.no-display {
 }
 
 img.article-image {
-  display: none;
+  display: ;
 }
 
 table.Top-Picks tr td { 
@@ -168,7 +168,7 @@ img.mosaic-image {
 }
 
 footer {
-	background: #dfe6e9;
+	background: #ffffff;
 	text-align: center;
 }
 
@@ -191,9 +191,9 @@ footer p {
 		padding: 0em 0%;
 }
 
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1400px) {
 	header, main, footer {
-		padding: 4em 30%;
+		padding: 1em 30%;
 	}
 }
 
